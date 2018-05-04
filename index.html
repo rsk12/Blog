@@ -1,0 +1,251 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+            <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+            <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+            <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+     
+        <div class="container col-lg-12 main">
+        <div class="col-lg-12 post">
+                <div class="container">
+
+                    <h2><class="ubuntu">When to Use MongoDB Rather than MySQL</h2>
+                    <div class="body-text">
+
+                        <p class='text-muted ubuntu'>By Saikrishna |  April , 2018</p>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-6"><p>MySQL and MongoDB represent two sides of an argument that has been raging recently concerning data storage – the tried and tested relational database vs. non-relational or NoSQL database. They are both open-source products distributed under a version of the GNU GPL, and both are also available as commercial versions offering many more features and corporate support.</p></div>
+                            <!--<div class="col-lg-6"><p class=""><img alt="image" src="http://startupcentral.in/wp-content/uploads/2013/09/280x183xideabulb1.jpg.pagespeed.ic.gyJk5j8KnN.jpg" width="100%"></p></div>-->
+                        </div>
+
+                        <br/>
+                        <div class="row">
+                            <div class="col-lg-12"><p><strong>Overview</strong></p>
+                                <p>We all know that in the database technology world, it comes down to two main database types – SQL (relational) and NoSQL (non-relational). The differences between them are rooted in the way they are designed, which data types they support, and how they store them.</p></div>
+                        </div>
+                         <div class="row">
+                            <div class="col-lg-12"><p><strong>Relational Database Management System (RDBMS)</strong></p>
+                                <p>RDBMS Database is a relational database. It is the standard language for relational database management systems. Data is stored in the form of rows and columns in RDBMS. The relations among tables are also stored in the form of the table SQL (Structured query Language) is a programming language used to perform tasks such as update data on a database, or to retrieve data from a database. Some common relational database management systems that use SQL are: Oracle, Sybase, Microsoft SQL Server, Access, etc.</p></div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-lg-12"><p><strong>Features of RDBMS</strong></p>
+                                
+                                <ol>
+                                  <li>SQL databases are table based databases</li>
+                                  <li>Data store in rows and columns</li>
+                                  <li>Each row contains a unique instance of data for the categories defined by the columns.</li>
+                                  <li>Provide facility primary key, to uniquely identify the rows.</li>
+                                </ol></div>
+                        </div>
+                        
+                       
+                        <br/>
+                        <div class="row">
+                            <div class="col-lg-12"><p><strong>Limitations for SQL database</strong></p>
+                                <p><strong>Scalability: </strong>Users have to scale relational database on powerful servers that are expensive and difficult to handle. To scale relational database, it has to be distributed on to multiple servers. Handling tables across different servers is difficult.</p>
+                                  
+                                <p><strong>Complexity:</strong>In SQL server’s data has to fit into tables anyhow. If your data doesn’t fit into tables, then you need to design your database structure that will be complex and again difficult to handle.</p> 
+                              </div>
+                        </div>
+                       
+      
+                        <div class="row">
+                            <div class="col-lg-12"><p><strong>Popular SQL databases and RDBMS’s</strong></p>
+                                <ul>
+                                <li><strong>MySQL—</strong>the most popular open-source database, excellent for Enterprise Applications.</li>
+                                <li><strong>Oracle—</strong>an object-relational DBMS written in the C++ language. If you have the budget, this is a full-service option with great customer service and reliability. Oracle has also released an Oracle NoSQL database.</li>
+                                <li><strong>IMB DB2—</strong>a family of database server products from IBM that are built to handle advanced “big data” analytics.</li>
+                                <li><strong>Sybase—</strong>a relational model database server product for businesses primarily used on the Unix OS, which was the first enterprise-level DBMS for Linux.</li>
+                                <li><strong>MS SQL Server—</strong>a Microsoft-developed RDBMS for enterprise-level databases that supports both SQL and NoSQL architectures</li>
+                                </ul>
+                                </div>
+                        </div>
+                        <br/>
+                         
+                        <div class="row">
+                            <div class="col-lg-12"><p><strong>NoSQL</strong></p>
+                                <p>NoSQL commonly referred to as “Not Only SQL”. With NoSQL, unstructured, schema less data can be stored in multiple collections and nodes and it does not require fixed table sachems, it supports limited join queries, and we scale it horizontally.</p>
+                            </div>
+                        </div>
+                        <br/>
+                        
+                         <div class="row">
+                            <div class="col-lg-12"><p><strong>Benefits of NoSQL</strong></p>
+                            
+                            <ul>
+                                <li><strong>highly and easily scalable:</strong>Relational database or RDBMS databases are vertically Scalable When load increase on RDBMS database then we scale database by increasing server hardware power, need to by expensive and bigger servers and NoSQL databases are designed to expand horizontally and in Horizontal scaling means that you scale by adding more machines into your pool of resources.</li>
+                                <li><strong>Maintaining NoSQL Servers is Less Expensive:</strong>Maintaining high-end RDBMS systems is expensive and need trained manpower for database management but NoSQL databases require less management. it supports many Features like automatic repair, easier data distribution, and simpler data models make administration and tuning requirements lesser in NoSQL.</li>
+                                <li><strong>Lesser Server Cost and Open-Source:</strong>NoSQL databases are cheap and open source. NoSQL database implementation is easy and typically uses cheap servers to manage the exploding data and transaction while RDBMS databases are expensive and it uses big servers and storage systems. So the storing and processing data cost per gigabyte in the case of NoSQL can be many times lesser than the cost of RDBMS.</li>
+                                <li><strong>No Schema or Fixed Data model:</strong>NoSQL database is schema less so Data can be inserted in a NoSQL database without any predefined schema. So the format or data model can be changed any time, without application disruption. And change management is a big headache in SQL.</li>
+                                <li><strong>Support Integrated Caching:</strong>NoSQL database support caching in system memory so it increases data output performance and SQL database where this has to be done using separate infrastructure.</li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <div class="col-lg-12"><p><strong>Limitations & disadvantage of NoSQL</strong></p>
+                                <ol>
+                                <li>	NoSQL database is Open Source and Open Source at its greatest strength but at the same time its greatest weakness because there are not many defined standards for NoSQL databases, so no two NoSQL databases are equal.</li>
+                                
+                                <li>No Stored Procedures in mongo dB (NoSQL database).</li>
+                                
+                           
+                                
+                                </ol>
+                                </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-lg-12"><p><strong>Popular NoSQL Databases</strong></p>
+                            <ul>
+                                <li><strong>MongoDB—</strong>the most popular NoSQL system, especially among startups. A document-oriented database with JSON-like documents in dynamic schemas.</li>
+                                <li><strong>Apache’s Couch DB—</strong>a true DB for the web, it uses the JSON data exchange format to store its documents; JavaScript for indexing, combining and transforming documents; and, HTTP for its API.</li>
+                                <li><strong>IMB DB2—</strong>a family of database server products from IBM that are built to handle advanced “big data” analytics.</li>
+                                <li><strong>HBase—</strong>another Apache project, developed as a part of Hadoop, this open-source, non-relational “column store” NoSQL DB is written in Java, and provides Big Table-like capabilities.</li>
+                               
+                                </ul>
+                                
+                                </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <div class="col-lg-12"><p><strong>SQL vs NoSQL: MySQL vs MongoDB</strong></p>
+                            <p>Now that we’ve established the key structural differences between SQL and NoSQL databases, let’s delve into the key functional differences between the two, looking specifically at MySQL and MongoDB as examples.
+                            </p>
+                                
+                                </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-lg-6"><p><strong>What is MySQL?</strong></p>
+                            <p>MySQL is a popular open-source relational database management system (RDBMS) that is developed, distributed and supported by Oracle Corporation. Like other relational systems, MySQL stores data in tables and uses structured query language (SQL) for database access. In MySQL, you pre-define your database schema based on your requirements and set up rules to govern the relationships between fields in your tables. Any changes in schema necessitates a migration procedure that can take the database offline or significantly reduce application performance.
+                            </p>
+                            </div>
+                            </div>
+                            
+                                
+                    <div class="row">
+                            <div class="col-lg-12"><p><strong>MySQL: The SQL Relational Database</strong></p>
+                            <p>The following are some MySQL benefits and strengths:
+                            </p>
+                            
+                              <ul>
+                                <li><strong>Maturity:</strong>MySQL is an extremely established database, meaning that there’s a huge community, extensive testing and quite a bit of stability.</li>
+                                <li><strong>Compatibility:</strong>MySQL is available for all major platforms, including Linux, Windows, Mac, BSD and Solaris. It also has connectors to languages like Node.js, Ruby, C#, C++, Java, Perl, Python and PHP, meaning that it’s not limited to SQL query language.</li>
+                                <li><strong>Cost-effective:</strong>The database is open source and free.</li>
+                                <li><strong>Replicable:</strong>The MySQL database can be replicated across multiple nodes, meaning that the workload can be reduced and the scalability and availability of the application can be increased.</li>
+                                
+                                <li><strong>Data Sharding: </strong>While sharding cannot be done on most SQL databases, it can be done on MySQL servers. This is both cost-effective and good for business.</li>
+                               
+                                </ul>
+              
+                                </div>
+                        </div>         
+                              
+                              
+                              
+                              
+                               <div class="row">
+                            <div class="col-lg-6"><p><strong>What is MongoDB?</strong></p>
+                            <p>MongoDB is an open-source, non-relational database developed by MongoDB, Inc. MongoDB stores data as documents in a binary representation called BSON (Binary JSON). Related information is stored together for fast query access through the MongoDB query language. Fields can vary from document to document; there is no need to declare the structure of documents to the system – documents are self-describing. If a new field needs to be added to a document, then the field can be created without affecting all other documents in the collection, without updating a central system catalog, and without taking the system offline.
+                            </p>
+                            </div>
+                            </div>
+                            
+                                
+                    <div class="row">
+                            <div class="col-lg-12"><p><strong>MongoDB: The NoSQL Non-Relational Database</strong></p>
+                            <p>The following are some MySQL benefits and strengths:
+                            </p>
+                            
+                              <ul>
+                                <li><strong>Dynamic schema: </strong>As mentioned, this gives you flexibility to change your data schema without modifying any of your existing data.</li>
+                                <li><strong>Scalability:</strong>MongoDB is horizontally scalable, which helps reduce the workload and scale your business with ease.</li>
+                                <li><strong>Manageability: </strong>The database doesn’t require a database administrator. Since it is fairly user-friendly in this way, it can be used by both developers and administrators.</li>
+                                <li><strong>Speed:</strong>It’s high-performing for simple queries.</li>
+                                
+                                <li><strong>Flexibility: </strong>You can add new columns or fields on MongoDB without affecting existing rows or application performance.</li>
+                               
+                                </ul>
+              
+                                </div>
+                        </div>  
+                              
+                              
+                              
+                              <div class="row">
+                            <div class="col-lg-12"><p><strong>Reasons to Use a SQL Database</strong></p>
+                            <p><b><u>"Not every database fits every business need. That’s why many companies rely on both relational and non-relational databases for different tasks. Although NoSQL databases have gained popularity for their speed and scalability, there are still situations in which a highly structured SQL database might be preferable"</b></u>. Two reasons why you might consider a SQL database are:
+                            </p>
+                            
+                              <ol>
+                                <li><strong>You need ACID compliancy (Atomicity, Consistency, Isolation, Durability).  </strong>ACID compliancy reduces anomalies and protects the integrity of your database. It does this by defining exactly how transactions interact with the database, which is not the case with NoSQL databases, which have a primary goal of flexibility and speed, rather than 100% data integrity.</li>
+                                <li><strong>Your data is structured and unchanging. </strong>If your business is not growing exponentially, there may be no reason to use a system designed to support a variety of data types and high traffic volume.</li>
+                               
+                                </ol>
+              
+                                </div>
+                        </div>  
+                              
+                              
+                              
+                            <div class="row">
+                            <div class="col-lg-12"><p><strong>Reasons to Use a NoSQL Database</strong></p>
+                            <p>To prevent the database from becoming a system-wide bottleneck, especially in high volume environments, NoSQL databases perform in a way that relational databases cannot.
+The following features are driving the popularity of NoSQL databases like MongoDB, Couch DB, Cassandra, and HBase:
+.</p> Two reasons why you might consider a SQL database are:
+                            </p>
+                            
+                              <ol>
+                                <li><strong>Storing large volumes of data without structure </strong>A NoSQL database doesn’t limit storable data types. Plus, you can add new types as business needs change.</li>
+                                <li><strong>Using cloud computing and storage.  </strong>Cloud-based storage is a great solution, but it requires data to be easily spread across multiple servers for scaling. Using affordable hardware on-site for testing and then for production in the cloud is what NoSQL databases are designed for.</li>
+                                
+                                <li><strong>Rapid development  </strong>If you are developing using modern agile methodologies, a relational database will slow you down. A NoSQL database doesn’t require the level of preparation typically needed for relational databases.</li>
+            
+                                </ol>
+              
+                                </div>
+                        </div>
+                      
+                        
+                        <div class="row">
+                            <div class="col-lg-12"><p><strong>Conclusion:</strong></p><p>To answer the main question: “when to use MongoDB instead of MySQL?” you need to take into account your project requirements and further goals.<u> MySQL is well-recognized for its high performance, flexibility, reliable data protection, high availability, and management ease. Proper data indexing can solve the issue with performance, facilitate interaction and ensure robustness. But if your “data is unstructured and complex, or if you can’t pre-define your schema, you’d better opt for MongoDB.”</u> And what is more, if you need to handle a large volume of data and store it as documents — MongoDB will help you to meet the challenges.</p>
+                        
+                      <p>Thanks!</p>
+
+                        <div class="row">
+
+
+                            <div class="col-lg-12 aboutme">
+                                <div class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object dp img-circle" src="" style="width: 120px;height:120px;">
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">R Saikrishna<small> India</small></h4>
+                                        <h5>Application Developer</h5>
+                                        <hr style="margin:8px auto;border-bottom: 1px solid #ccc;">
+
+                                        
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+          
+</div>
